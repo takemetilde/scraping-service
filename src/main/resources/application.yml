@@ -1,0 +1,9 @@
+spring:
+  profiles:
+ui:
+  webdriver:
+    browser: chrome
+      version: auto
+      type: local
+    remote: true
+
