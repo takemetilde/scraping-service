@@ -57,7 +57,6 @@ public class WebDriverConfig {
             case BrowserType.FIREFOX:
                 firefoxDriverSetup();
                 return new FirefoxDriver();
-            case
             default:
                 Assert.fail("No webdriver instance created.");
                 return null;
